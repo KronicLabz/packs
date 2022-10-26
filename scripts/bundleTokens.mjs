@@ -23,7 +23,7 @@ import fs from "fs";
     await edition.setApprovalForAll(packAddress, true);
     console.log("Edition approved");
 
-    const packFile = fs.readFileSync("./scripts/pack.png");
+    const packFile = fs.readFileSync("./scripts/ZombezeCardPack1.png");
     const url = `${ipfsHash,baseUri}`;
     console.log("Pack file uploaded to IPFS");
 
